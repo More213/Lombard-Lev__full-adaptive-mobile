@@ -473,14 +473,29 @@ display: block;
 
 }
 .items{
-    display:inline-block;
+    display:block;
     width: 90%;
 }
 @media screen and (max-width: 1400px)  {
     .items{
-    display:inline-block;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+        flex-wrap:wrap;
     width: 60%;
-    margin: 0 auto;
+     margin: 0  auto;
+}
+}
+@media screen and (max-width: 1055px)  {
+    .items{
+    width: 70%;
+
+}
+}
+@media screen and (max-width: 904px)  {
+    .items{
+    width: 90%;
+
 }
 }
 .h1{
