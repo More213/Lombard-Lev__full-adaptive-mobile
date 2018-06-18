@@ -90,7 +90,7 @@ body{
 .phone{
     display: block;
     position: relative;
-    width:10px ;
+    width:16px ;
     height:20px ;
     background: url(./images-lomb/Phone-1.png) no-repeat;
 }

@@ -1,0 +1,51 @@
+.header1{
+ 
+    min-height: 60px;
+    max-height:120px;
+   
+}
+.main-menu{
+    display: block;
+    position: absolute;
+    top: 25%;
+    left: 5%;
+    margin:0;
+}
+.main-menu>div{
+    margin-right: 25px;
+}
+.contact {
+    display: none;
+}
+.logo{
+
+    width:63% ;
+ 
+    height:200px ;
+    background: rgba(150, 0, 24, 0.57);
+}
+.line122{
+    display: block;
+    position:relative;
+   
+    right:10px ;
+    background: url(./images-lomb/line11.png) no-repeat;
+    width:2px ;
+    height: 90px;
+}
+.logo>div>span{
+    font-size:1.8em ;
+    display: block;
+    right: 2%;
+    position: relative;
+    color: #fff;
+}
+.main-menu a{
+    font-size:1.39em ;
+
+}
+.offer1{
+    height: 25px;
+    padding:10px 0px 10px;
+    width:63% ;
+}
