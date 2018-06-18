@@ -14,7 +14,7 @@
 
 }
 .contact li{
-    font-size: 0.875em;
+    font-size: 0.875em; 
    
 }
 .logo{
@@ -52,4 +52,8 @@
 }
 .wrapper{
     margin-top: -50px;
+}
+iframe{
+
+    height: 540px;
 }
