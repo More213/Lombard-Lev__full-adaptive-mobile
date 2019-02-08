@@ -74,3 +74,34 @@ body{
 .line4{
     width:85%;  
 }
+.bott{
+    min-width:340px ;
+    width: 450px;
+    margin-top: 30px;
+    display: flex
+    flex-direction:row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.bott1{
+    min-width: 340px;
+    width: 450px;
+}
+.bott1 li{
+    height:62px ;
+    list-style-type: none;
+    margin: 20px 0;
+}
+.bott-text{
+    margin-left:3%; 
+    float: left;  
+    width: 90%;
+}
+.bott-text>span{
+    font-size: 2.4em;
+}
+.cart{
+    float: none;
+    bottom:-600px ;
+    width: 100%;
+}
