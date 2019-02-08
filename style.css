@@ -9,7 +9,7 @@
 }
 html,
 body{
-    min-width: 300px;
+    min-width: 600px;
     height:100%; 
     width: 100%;
     margin: 0px;
@@ -24,7 +24,7 @@ body{
     justify-content:space-between;
     align-items:flex-start;
     position: relative;
-    min-width: 300px;
+    min-width:500px;
     max-width:100%;
     min-height: 60px;
     max-height:100px;
@@ -356,11 +356,12 @@ padding:30px 50px;
     display: block;
     position:relative;
    right: 50px;
-    background: #ffffff; /* Цвет фона */
+    background: url(./images-lomb/icon_for.png) 50px 30px no-repeat #ffffff; /* Цвет фона */
     box-shadow: 0 0  10px rgba(0,0,0,0.5); /* Параметры тени */
     padding:30px 50px;
     border-radius: 5px;
     box-sizing:content-box;
+    z-index: 7;
     
     
 }
@@ -429,7 +430,7 @@ padding:30px 50px;
 .check1-1:hover{
     display: block;
     position: relative;
-    background: url(./images-lomb/icon_for.png) no-repeat;
+    background: ;
     width: 72px;
     height:68px;
 }
@@ -565,7 +566,7 @@ display: block;
 }
 .line4{
     position: relative;
-    right:45px ;
+    right:25px ;
 }
 .bott{
     width: 100%;

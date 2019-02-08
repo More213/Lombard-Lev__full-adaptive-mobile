@@ -17,7 +17,7 @@
 .untitled__slide { 
   position: absolute;
   height: 100%;
-  width: 100%;
+  width: 100%; 
   opacity: 0;
   -webkit-animation: showHideSlide infinite 20s steps(1);
           animation: showHideSlide infinite 20s steps(1);

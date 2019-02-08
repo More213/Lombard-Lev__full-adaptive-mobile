@@ -13,7 +13,7 @@
     font-size:14px ;
 
 }
-.contact li{
+.contact li{ 
     font-size: 0.875em; 
    
 }
@@ -56,4 +56,9 @@
 iframe{
 
     height: 540px;
+}
+.check1{
+    width:750px ;
+    margin-left: auto;
+    margin-right: auto;
 }
