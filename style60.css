@@ -15,11 +15,14 @@ body{
     
 }
 .line122{
-    display: none;
+    display: ;
+}
+.logo{
+    width: 100%;
 }
 .logo>div>span{
     font-size:1.8em ;
-    display:none;
+    display:;
 }
 .main-menu{
     height:120px;
@@ -72,7 +75,7 @@ body{
 }
 .bott{
     min-width:340px ;
-    width: 340px;
+    width: 490px;
     margin-top: 30px;
     display: flex
     flex-direction:row;
@@ -82,4 +85,7 @@ body{
 .bott1{
     min-width: 340px;
     width: 340px;
+}
+iframe{
+    width:99% ;
 }
