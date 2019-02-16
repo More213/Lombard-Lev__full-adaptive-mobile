@@ -14,9 +14,6 @@ body{
     max-height:115px;
     
 }
-.line122{
-    display: ;
-}
 .logo{
     width: 100%;
 }
@@ -32,6 +29,7 @@ body{
 }
 .offer1{
     bottom:170px ;
+    width: 100%;
    
 }
 .check{
@@ -75,7 +73,7 @@ body{
 }
 .bott{
     min-width:340px ;
-    width: 490px;
+    width: 100%;
     margin-top: 30px;
     display: flex
     flex-direction:row;
@@ -87,5 +85,5 @@ body{
     width: 340px;
 }
 iframe{
-    width:99% ;
+    width:100% ;
 }

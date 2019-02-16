@@ -17,6 +17,9 @@ body{
     font-family:  «PT Sans», sans-serif;
    
 }
+body{
+    overflow-x: hidden;
+}
 
 .header1{
     display: flex;
@@ -52,7 +55,6 @@ body{
     text-decoration: none;
 }
 .main-menu a:hover{
-    margin-top: ;
     border-bottom:0.13em solid #ffffff;
 }
 .contact{
@@ -183,7 +185,6 @@ body{
 
 
 
----------------------------------------------------------------------------------
 @-webkit-keyframes scroll {
     0% {
         -webkit-transform: translate(0, 0);
@@ -571,7 +572,7 @@ display: block;
 .bott{
     width: 100%;
     margin-top: 30px;
-    display: flex
+    display: flex;
     flex-direction:row;
     justify-content: space-between;
     flex-wrap: wrap;
