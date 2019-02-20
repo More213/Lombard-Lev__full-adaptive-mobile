@@ -1,8 +1,9 @@
 .header1{
 
-    min-height: 50px;
+    min-height: 65px;
     max-height:100px;
-  }
+    
+}
 .untitled {
 
   height: 650px;   
@@ -10,7 +11,7 @@
 }
 
 .main-menu a{
-    font-size:14px ;
+    font-size:20px ;
 
 }
 .contact li{ 
@@ -47,7 +48,7 @@
     color: #fff;
 }
 .offer1{
-    bottom:105px ;
+    bottom:120px ;
   
 }
 .wrapper{
