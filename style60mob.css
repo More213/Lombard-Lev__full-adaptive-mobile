@@ -21,6 +21,10 @@
     min-width: 340px;
     width: 100%;
 }
+.bott1 li{
+    height:80px ;
+
+}
 .cart{
     float: none;
     bottom:-600px ;

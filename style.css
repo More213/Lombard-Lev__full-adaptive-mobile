@@ -580,6 +580,7 @@ display: block;
     flex-direction:row;
     justify-content: space-between;
     flex-wrap: wrap;
+    height:auto;
 }
 .bott1 li{
     height:62px ;
