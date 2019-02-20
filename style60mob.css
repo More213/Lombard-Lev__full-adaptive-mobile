@@ -1,7 +1,5 @@
 
-body{
-    overflow-x: hidden;
-}
+
 .check2{
     display: flex;
     flex-direction:row;
