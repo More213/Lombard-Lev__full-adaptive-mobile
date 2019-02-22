@@ -183,8 +183,20 @@ body{
     align-items:center;
     margin-top: 30px;
 }
+.wrrrra{
+    width: 1100px;
+    display: flex;
+    flex-direction:column;
+    justify-content:space-between;
+    align-items:center;
+    margin-top: 30px;
+}
+@media screen and (min-width: 1055px)  {
+    .wrrrra{
+    width: 1000px;
 
-
+}
+}
 
 @-webkit-keyframes scroll {
     0% {
@@ -479,13 +491,13 @@ display: block;
     display:block;
     width: 90%;
 }
-@media screen and (max-width: 1400px)  {
+@media screen and (min-width:2000px)  {
     .items{
     display:flex;
     flex-direction: row;
     justify-content: space-around;
         flex-wrap:wrap;
-    width: 60%;
+    width: 800px;
      margin: 0  auto;
 }
 }
