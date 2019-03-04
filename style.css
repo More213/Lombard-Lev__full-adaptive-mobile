@@ -33,7 +33,12 @@ body{
     height: 90px;
     background: rgba(150, 0, 24, 0.57);
     z-index: 2;
-    
+}
+.header1>div{
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    width: 1920px;
 }
 .main-menu{
     display: block;
@@ -59,22 +64,25 @@ body{
     border-bottom:0.13em solid #ffffff;
 }
 .contact{
+    height:50px ;
     display: flex;
     flex-direction: row;
     justify-content:space-between;
     align-items:flex-start;
     position: absolute;
-    right:55px ;
-    width:480px ;
+    right:70px ;
+    width:490px ;
     margin-top:30px;
 }
-.contact>.contact1{
+.contact1>.contact2{
     position: relative;
     display:inline-block;
     right: 0px;
-    width: 200px;
-    margin-right:10px;
-
+    width: 190px;
+}
+.contact>.contact1{
+    display: inline-block;
+    width: 245px;
 }
 .contact li{
     font-size: 1.057em;
@@ -85,17 +93,79 @@ body{
     display: block;
     position: relative;
     right:10px ;
-    top:3px ;
-    width: 26px;
-    height:13px;
-    background:url(./images-lomb/Mail-1.png) no-repeat ;
+    float: left;
+    top:8px ;
+    width:32px;
+    height:21px;
+    background:url(./images-lomb/Mail.png) no-repeat ;
 }
 .phone{
     display: block;
     position: relative;
-    width:16px ;
-    height:20px ;
+    float: left;
+    width:24px ;
+    height:40px ;
     background: url(./images-lomb/Phone-1.png) no-repeat;
+}
+@media screen and (max-width: 1720px){
+ .header1>div{
+    margin-left:0;
+    margin-right:0;
+    position: relative;
+    width: 1920px;
+}
+.main-menu{
+    margin-left:-15px ;
+}
+    .contact{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items:flex-start;
+    position: absolute;
+    right:-5px ;
+    width:480px ;
+    margin-top:30px;
+}
+}
+@media screen and (max-width: 1420px){
+    .header1{
+    display: flex;
+    flex-direction:row;
+    justify-content:space-between;
+    align-items:flex-start;
+    position: relative;
+    min-width:500px;
+    max-width:100%;
+    height: 150px;
+    background: rgba(150, 0, 24, 0.57);
+    z-index: 2;
+}
+    .header1>div{
+    display: flex;
+    flex-direction:row;
+    justify-content:space-between;
+    align-items:flex-start;
+    flex-wrap: wrap-reverse;
+        align-content: space-around;
+    margin-left: auto;
+    margin-right: auto;
+   
+    position: relative;
+    width: 950px;
+}
+    .main-menu{
+    margin-left: auto;
+        margin-right: auto;
+        margin-top: 120px
+}
+    .contact{
+    margin-left: auto;
+    margin-right: auto;
+    
+    width:950px ;
+    margin-top:70px;
+}
 }
 .bl1{
     width:100%;
@@ -130,7 +200,7 @@ body{
 .l1{
     font-family: 'AGOpus';
     font-weight:bold ;
-    font-size:1.7em ;
+    font-size:1.75em ;
     color: #fff;
 }
 .logo-top{
@@ -170,7 +240,7 @@ body{
     z-index: 16;
     background: rgba(150, 0, 24, 0.6);
     min-width: 300px;
-    width:50%;
+    width:940px;
     height: 30px;
     padding:5px 0 20px;
     
@@ -181,7 +251,7 @@ body{
     flex-direction:column;
     justify-content:space-between;
     align-items:center;
-    margin-top: 30px;
+   
 }
 .wrrrra{
     width: 1724px;
@@ -238,24 +308,24 @@ body{
     animation: scroll 13s infinite linear;
 }
 .tu{
-    font-size:2.2em ;
+    font-size:1.6em ;
     display: block;
     margin-left:auto;
     margin-right: auto;
-    margin-bottom: 15px;
-    margin-top: 20px;
+
+
     
     
 }
 .wrov23>p{
     font-size:1.26em ;
-    font-weight:600;
+    font-weight:500;
     display: block;
     position: relative;
     margin-left: auto;
     margin-right: auto;
     min-width:300px;
-    width: 70%;
+    width:1090px;
     text-align: center;
 
 }
@@ -266,13 +336,13 @@ body{
     flex-direction:column;
     justify-content: space-around;
     align-items: center;
-    padding-bottom: 30px;
+    padding-bottom: 50px;
     margin-left: 30px;
     text-align: center;
     
 }
 .condition{
-    height: 400px;
+    height:240px;
     min-width:500px;
     width:100%;
     display: flex;
@@ -435,6 +505,7 @@ padding:15px 55px;
     align-items:center;
     min-width: 300px;
     width: 100%;
+    margin-bottom: 100px;
     
 }
 .check1{
@@ -447,7 +518,7 @@ padding:15px 55px;
     align-items:center;
     width: 600px;
     height:200px;
-    margin: 30px;
+    margin:0 30px;
     
 }
 .check1-1{
@@ -528,7 +599,14 @@ display: block;
 }
 
 .h1{
-    font-size: 2.25em;
+    font-size: 1.6em;
+
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.h2{
+    font-size: 1.6em;
 
     margin-left: auto;
     margin-right: auto;
@@ -546,12 +624,14 @@ display: block;
     width:255px;
     height:255px ;
     padding: 5px;
-    margin: 30px 10px;
+    margin: 30px 10px 15px;
     border: 1px solid #737373;
+}
+.item:hover{
+    box-shadow: 0 0  10px rgba(0,0,0,0.5);
 }
 .textbottom{
     border-top: 1px solid #737373;
-    padding:px ;
 }
 .imag{
     display: block;
@@ -580,13 +660,17 @@ display: block;
 }
 .red{
     color: #ff0000;
-    font-size: 0.9em;
+    font-size: 0.7em;
+    font-weight: 600;
+    
 }
 .tb1{
-    font-size: 0.9em;
+    font-size: 0.7em;
+    font-weight: 600;
 }
 .lit1{
-    font-size: 0.7em;
+    font-size: 0.5em;
+        font-weight: 600;
 }
 .betton{
     
@@ -616,17 +700,17 @@ display: block;
     margin: 20px 0;
 }
 .bott-text{
-    margin-left:3%; 
+    margin-top:20px ;
     float: left;  
     width: 35%;
     padding-top: 50px;
 }
 .bott-text>span{
-    font-size: 2.4em;
+    font-size: 1.9em;
 }
 .cart{
     float: right;
-    width: 60%;
+    width: 65%;
 }
 .line3{
     margin-left: 80px;
@@ -667,7 +751,7 @@ iframe{
     margin-right: 25px;
 }
 .botti4{
-    background: url(images-lomb/icons-12.png) no-repeat;
+    background: url(images-lomb/icons-1-2.png) no-repeat;
     width: 57px;
     height: 53px;
     float: left;
@@ -688,6 +772,14 @@ iframe{
     height: 70px;
     background: #960018;
     color: #ffffff;
+}
+.footer-1724{
+    display: flex;
+    justify-content:space-between;
+    align-content: center;
+    width: 1724px;
+    margin-left: auto;
+    margin-right: auto;
 }
 .foot{
     position: relative;
