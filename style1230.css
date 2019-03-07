@@ -1,0 +1,65 @@
+    .contact{
+    margin-left: auto;
+    margin-right: auto;
+    
+    width:900px ;
+    margin-top:70px;
+}
+.contact>.contact1:nth-child(1){
+   margin-left:0px ;
+}
+.condition{
+     height:550px;
+    width: 1000px;
+}
+.guarantee{
+    min-width: 1000px;
+    width:1000px;
+}
+.wrov23>p{
+    min-width:900px;
+    width:900px;
+}
+.items{
+    display:flex;
+    width:1000px;
+    flex-direction: row;
+    justify-content:center;
+    flex-wrap: wrap;
+}
+.bott{
+    width:1000px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    height:auto;
+}
+.bott-text{
+    margin-top:20px ;
+    float:none;  
+    width: 100%;
+    padding-top: 50px;
+}
+.cart{
+    float: none;
+    width: 100%;
+}
+.h2{
+margin-left: 35%
+}
+.line3{
+    margin-left: 40%;
+}
+.line4{
+    right:0px ;
+}
+iframe{
+    min-width:240px ;
+    width: 100%;
+    height:500px;
+}
+.bott-text>span{
+    margin-left:22%;
+}
