@@ -20,13 +20,9 @@ body{
    
 }
 body{
-    overflow-x:hidden;
+
 }
-@media screen and (max-device-width:1500px){
-   body{
-    overflow-x:hidden;
-} 
-}
+
 .header1{
     display: flex;
     flex-direction:row;
@@ -38,6 +34,7 @@ body{
     height: 90px;
     background: rgba(150, 0, 24, 0.57);
     z-index: 2;
+    
 }
 .header1>div{
     margin-left: auto;
@@ -193,7 +190,7 @@ body{
     
 }
 .wrapper{
-    width:100%;
+    max-width:100%;
     display: flex;
     flex-direction:column;
     justify-content:space-between;
@@ -201,9 +198,9 @@ body{
    
 }
 .wrrrra{
-    width: 1724px;
+    max-width: 1724px;
     display: flex;
-    flex-direction:column;
+    flex-direction:column;   
     justify-content:space-between;
     align-items:center;
 }
@@ -271,7 +268,7 @@ body{
     position: relative;
     margin-left: auto;
     margin-right: auto;
-    min-width:300px;
+    min-width:300px; 
     width:1090px;
     text-align: center;
 
@@ -435,7 +432,7 @@ padding:15px 55px;
     justify-content: center;
     align-items:center;
     min-width: 900px;
-    width: 100%;
+    max-width: 100%;
     margin-bottom: 100px;
     
 }
