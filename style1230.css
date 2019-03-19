@@ -10,11 +10,11 @@
 }
 .condition{
      height:550px;
-    width: 1000px;
+    width: 100%;
 }
 .guarantee{
-    min-width: 1000px;
     width:1000px;
+    margin-left: 0;
 }
 .wrov23>p{
     min-width:900px;
@@ -63,3 +63,14 @@ iframe{
 .bott-text>span{
     margin-left:22%;
 }
+
+
+
+-------------------------------------------
+
+
+
+
+
+
+
