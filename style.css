@@ -640,6 +640,7 @@ display: block;
 }
 .bott-text>span{
     font-size: 1.7em;
+    text-align: center;
 }
 .cart>.h2,
 .cart>hr{
