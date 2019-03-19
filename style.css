@@ -19,8 +19,9 @@ body{
     font-size:1.2em ;
    
 }
-body{
-
+body,
+.body{
+overflow-x: hidden !important;
 }
 
 .header1{
@@ -722,4 +723,9 @@ iframe{
     right:5% ;
     top:20px ;
 }
- 
+@media only screen and (max-width:1000px){
+body,
+.body{
+overflow-x:auto !important;
+}
+}     
