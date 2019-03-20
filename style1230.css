@@ -1,10 +1,4 @@
-    .contact{
-    margin-left: auto;
-    margin-right: auto;
-        overflow-x: hidden;
-    width:900px ;
-    margin-top:70px;
-}
+
 .contact>.contact1:nth-child(1){
    margin-left:0px ;
 }
@@ -20,6 +14,33 @@
     min-width:900px;
     width:900px;
 }
+.stri1{
+    display:block;
+    position: relative;
+    width:350px;
+    height: 100px;
+    float: right;
+}
+.string{
+    display: block;
+    width: 430px;
+    height: 125px;
+    margin:20px;
+}
+.string:nth-child(1),
+.string:nth-child(3),
+.string:nth-child(5),
+.string:nth-child(7){
+    margin-left: 0;
+    margin-right: 20px;
+}
+.string:nth-child(2),
+.string:nth-child(4),
+.string:nth-child(6),
+.string:nth-child(8){
+    margin-right: 0;
+    margin-left: 20px;
+}
 .items{
     display:flex;
     width:1000px;
@@ -27,6 +48,14 @@
     justify-content:center;
     flex-wrap: wrap;
 }
+.item:nth-child(1),
+.item:nth-child(5),
+.item:nth-child(4),
+.item:nth-child(6){
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
 .bott{
     width:1000px;
     margin-top: 30px;
@@ -78,6 +107,12 @@ iframe{
 .cart>hr{
     margin-left: auto;
     margin-right: auto;
+}
+.footer-1724{
+    width: 1000px;
+}
+.foot2{
+    right: 20%;
 }
 -------------------------------------------
 @media only screen and (max-device-width:1000px){

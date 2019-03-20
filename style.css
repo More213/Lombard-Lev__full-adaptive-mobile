@@ -73,19 +73,19 @@ overflow-x: hidden !important;
     justify-content:space-between;
     align-items:flex-start;
     position: absolute;
-    right:70px ;
+    right:109px ;
     width:490px ;
     margin-top:30px;
 }
 .contact1>.contact2{
     position: relative;
-    display:inline-block;
+    display:inline;
     right: 0px;
-    width: 200px;
+    width: 195px;
+    text-align: right;
 }
 .contact>.contact1{
-    display: inline-block;
-    width: 245px;
+    width: 230px;
 }
 .contact li{
     font-size: 1.057em;
@@ -95,9 +95,10 @@ overflow-x: hidden !important;
 .mail{
     display: block;
     position: relative;
-    right:10px ;
+    right:px ;
     float: left;
-    top:5px ;
+    top:9px ;
+    left: 10px;
     width:32px;
     height:21px;
     background:url(./images-lomb/Mail.png) no-repeat ;
@@ -105,9 +106,10 @@ overflow-x: hidden !important;
 .phone{
     display: block;
     position: relative;
-    bottom:5px ;
+    bottom:3px ;
     float: left;
-    width:24px ;
+    left:20px ;
+    width:20px ;
     height:40px ;
     background: url(./images-lomb/Phone-1.png) no-repeat;
 }
@@ -306,9 +308,17 @@ overflow-x: hidden !important;
 }
 .string{
     display: block;
-    width: 390px;
+    width: 380px;
     height: 125px;
-    margin:15px 10px;
+    margin:20px;
+}
+.string:nth-child(1),
+.string:nth-child(5){
+    margin-left: 0;
+}
+.string:nth-child(4),
+.string:nth-child(8){
+    margin-right: 0;
 }
 .string1{
     display: inline-block;
@@ -547,16 +557,29 @@ display: block;
     justify-content: space-between;
     
     float: left;
-    width:255px;
+    width:260px;
     height:255px ;
-    padding: 5px;
-    margin: 30px 10px 15px;
+
+    margin: 30px 15px 15px;
     border: 1px solid #737373;
+}
+@media screen and (max-width:1741px) and (min-width:1724px){
+    .item{
+    width:255px;
+    margin: 30px 15px 15px;
+}
+}
+.item:nth-child(1){
+    margin-left: 0;
+}
+.item:nth-child(6){
+    margin-right: 0;
 }
 .item:hover{
     box-shadow: 0 0  10px rgba(0,0,0,0.5);
 }
 .textbottom{
+   padding-left:20px ;
     border-top: 1px solid #737373;
 }
 .imag{
@@ -712,7 +735,7 @@ iframe{
 }
 .foot{
     position: relative;
-    left:  10% ;    
+    left:  1% ;    
 }
 .foot>span{
     text-align: left;
@@ -731,7 +754,7 @@ iframe{
     font-size:0.85em ;
     height: 30px;
     position: relative;
-    right:5% ;
+    right:15% ;
     top:20px ;
 }
 @media only screen and (max-width:1000px){

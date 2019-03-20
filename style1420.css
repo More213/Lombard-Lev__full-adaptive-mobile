@@ -35,19 +35,24 @@
     margin-right:0px;
 }
     .contact{
-    margin-left: auto;
-    margin-right: auto;
-    right: 10px;
+    margin-left: 0;
+    margin-right: 0;
+    right: 5px;
     width:950px ;
     margin-top:70px;
 }
 .contact>.contact1{
-    display: inline-block;
+    display: ;
     width: 235px;
+margin: 0;
+    padding: 0;
 }
 .contact>.contact1:nth-child(1){
-   margin-left:55px ;
+   margin-left:0px ;
 }
 .offer1{
     bottom:105px ;
+}
+.footer-1724{
+    width: 1230px;
 }

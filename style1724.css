@@ -15,7 +15,7 @@
     justify-content:space-between;
     align-items:flex-start;
     position: absolute;
-    right:5px ;
+    right:22px ;
     width:480px ;
     margin-top:30px;
 }
@@ -27,10 +27,27 @@
     flex-wrap: wrap;
 }
     .condition{
-    width:1230px;
+    width:1430px;
     margin-left: auto;
     margin-right: auto;
-    height: 320px;
+    height: 420px;
+}
+
+.string:nth-child(4){
+    margin-left: 0;
+    margin-right: 20px;
+}.string:nth-child(5){
+    margin-left: 20px;
+}
+.string:nth-child(3),
+.string:nth-child(6){
+    margin-right: 0;
+}
+.item:nth-child(6){
+    margin-right: 15px;
+}
+.item:nth-child(4){
+    margin-right:0px;
 }
 .bott{
     width:1230px;
@@ -72,7 +89,12 @@ iframe{
     position: relative;
     right:0px ;
 }
-
+.foot2{
+    right: 30%;
+}
+.footer-1724{
+    width: 1420px;
+}
 
 
 ---------------------------------------------------------------------------------
