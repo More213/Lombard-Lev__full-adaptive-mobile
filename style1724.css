@@ -46,6 +46,9 @@
     float: left;  
     width: 40%;
 }
+.zalog{
+    margin-left:5%;
+}
 .cart{
     float: right;
     width: 55%;

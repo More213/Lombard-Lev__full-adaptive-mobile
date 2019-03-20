@@ -185,7 +185,7 @@ overflow-x: hidden !important;
     z-index: 16;
     background: rgba(150, 0, 24, 0.6);
     min-width: 300px;
-    width:940px;
+    width:950px;
     height: 30px;
     padding:5px 0 20px;
     
@@ -248,7 +248,7 @@ overflow-x: hidden !important;
     color:#ffffff ;
     display: inline-block;
     font-size:150% ;
-
+    padding-left: 100%;
     -webkit-animation: scroll 13s infinite linear;
     -moz-animation: scroll 13s infinite linear;
     animation: scroll 13s infinite linear;
@@ -634,13 +634,14 @@ display: block;
 }
 .bott-text{
     margin-top:0px ;
+    
     float: left;  
     width: 35%;
     padding-top: 0px;
 }
-.bott-text>span{
+.zalog{
     font-size: 1.7em;
-    text-align: center;
+   
 }
 .cart>.h2,
 .cart>hr{
