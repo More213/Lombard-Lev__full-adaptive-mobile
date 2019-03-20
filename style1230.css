@@ -114,12 +114,6 @@ iframe{
 .foot2{
     right: 20%;
 }
--------------------------------------------
-@media only screen and (max-device-width:1000px){
-.zalog{
-    width:100% ;
-}
-} 
 
 
 

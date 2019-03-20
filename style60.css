@@ -2,5 +2,9 @@
 .bott1 li{
     height:100px ;
     list-style-type: none;
-    margin: 40px 0;
+    margin: 70px 0;
+}
+.zalog{
+    width:100% ;
+    text-align: center;
 }
