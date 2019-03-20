@@ -1,11 +1,10 @@
 
 .bott1 li{
-    height:100px ;
+    height:70px ;
     list-style-type: none;
     margin: 70px 0;
     padding: 20px;
 }
 .zalog{
-    width:100% ;
-    text-align: center;
+margin-left: 5%;
 }
