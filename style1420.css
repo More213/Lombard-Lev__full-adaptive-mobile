@@ -28,10 +28,10 @@
     margin-left:5px ;
      margin-top: 120px;
 }
-.main-menu>div{
+.main-menu>li{
     margin-right:70px;
 }
-.main-menu>div:nth-child(5){
+.main-menu>li:nth-child(5){
     margin-right:0px;
 }
     .contact{
