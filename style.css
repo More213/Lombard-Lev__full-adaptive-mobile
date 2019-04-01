@@ -151,8 +151,6 @@ overflow-x: hidden !important;
     color: #fff;
 }
 .logo-top{
-    display:block;
-    background: url(./images-lomb/logo_b.png) no-repeat;
     width: 151px;
     height:158px ;
 }
@@ -262,7 +260,8 @@ overflow-x: hidden !important;
     margin-right: auto;
     
 }
-.wrov23>p{
+
+.wrov23{
     font-size:1.26em ;
     font-weight:500;
     display: block;
@@ -270,7 +269,7 @@ overflow-x: hidden !important;
     margin-left: auto;
     margin-right: auto;
     min-width:300px; 
-    width:1090px;
+    width:950px;
     text-align: center;
 
 }
@@ -287,7 +286,7 @@ overflow-x: hidden !important;
     
 }
 .condition{
-    height:240px;
+    height:auto;
     min-width:500px;
     max-width:100%;
     display: flex;
@@ -300,17 +299,21 @@ overflow-x: hidden !important;
 }
 
 .stri1{
-    display:block;
-    position: relative;
-    width:300px;
-    height: 100px;
+   text-align: left;
+    width:310px;
+    height:auto;
     float: right;
+    padding-top: 0px;
+    margin-top: 0;
 }
 .string{
     display: block;
-    width: 380px;
-    height: 125px;
+    width: 390px;
+    height:auto;
     margin:20px;
+}
+.string img{
+    margin-top:10px; 
 }
 .string:nth-child(1),
 .string:nth-child(5){
@@ -321,67 +324,43 @@ overflow-x: hidden !important;
     margin-right: 0;
 }
 .string1{
-    display: inline-block;
-    position: relative;
     width: 57px;
-    height: 69px;
-    background: url(./images-lomb/icons-1.png) no-repeat;
+    height: auto;
     z-index:5 ;
 }
 .string2{
-    display: inline-block;
-    position: relative;
     width: 57px;
-    height: 69px;
-    background: url(./images-lomb/icons-2.png) no-repeat;
+    height:auto;
     z-index:5 ;
 }
 .string3{
-    display: inline-block;
-    position: relative;
     width: 71px;
     height: 76px;
-    background: url(./images-lomb/icons-3.png) no-repeat;
     z-index:5 ;
 }
 .string4{
-    display: inline-block;
-    position: relative;
     width: 64px;
     height: 63px;
-    background: url(./images-lomb/icons-4.png) no-repeat;
     z-index:5 ;
 }
 .string5{
-    display: inline-block;
-    position: relative;
     width: 71px;
     height: 67px;
-    background: url(./images-lomb/icons-5.png) no-repeat;
     z-index:5 ;
 }
 .string6{
-    display: inline-block;
-    position: relative;
     width: 55px;
     height: 60px;
-    background: url(./images-lomb/icons-6.png) no-repeat;
     z-index:5 ;
 }
 .string7{
-    display: inline-block;
-    position: relative;
     width: 57px;
     height: 69px;
-    background: url(./images-lomb/icons-7.png) no-repeat;
     z-index:5 ;
 }
 .string8{
-    display: inline-block;
-    position: relative;
     width: 65px;
     height: 50px;
-    background: url(./images-lomb/icons-8.png) no-repeat;
     z-index:5 ;
 }
 .blocshadow{
