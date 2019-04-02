@@ -26,8 +26,8 @@ overflow-x: hidden !important;
 .conturleft{
     width:1px;
     height:4000px ;
-    position: absolute;
-    left: 25px;
+    position:absolute;
+    left: 282px;
     background:#00ffff ;
     top:0;
     z-index: 100;
@@ -36,7 +36,7 @@ overflow-x: hidden !important;
        width:1px;
     height:4000px ;
     position: absolute;
-    right: 25px;
+    right: 282px;
     background:#00ffff ;
     top:0;
     z-index:100 ;
@@ -101,7 +101,7 @@ overflow-x: hidden !important;
     width: 195px;
     text-align: right;
 }
-.contact>.contact1{
+.contact1{
     width: 230px;
 }
 .contact li{
@@ -148,7 +148,7 @@ overflow-x: hidden !important;
     top: 300px;
     z-index:16 ;
     min-width: 200px;
-    width:940px;
+    width:950px;
  
     height:270px ;
     background: rgba(150, 0, 24, 0.57);
@@ -208,6 +208,7 @@ overflow-x: hidden !important;
     
 }
 .wrapper{
+    margin-top:5px ;
     min-width:1000px ;
     max-width:100%;
     display: flex;
@@ -288,7 +289,8 @@ overflow-x: hidden !important;
     min-width:300px; 
     width:950px;
     text-align: center;
-
+    margin-bottom:0 ;
+    margin-top: 10px;
 }
 .guarantee{
     min-width: 200px;
@@ -297,8 +299,7 @@ overflow-x: hidden !important;
     flex-direction:column;
     justify-content: space-around;
     align-items: center;
-    padding-bottom: 50px;
- 
+    padding-bottom: 30px;
     text-align: center;
     
 }
@@ -307,13 +308,12 @@ overflow-x: hidden !important;
     min-width:500px;
     max-width:100%;
     display: flex;
+    margin-top: 0px;
     flex-direction:row;
     justify-content: center;
     align-content: center;
     flex-wrap:wrap;
-    margin-bottom:100px;
     padding:0;
-    
 }
 
 .stri1{
@@ -439,11 +439,12 @@ padding:15px 55px;
     align-items:center;
     min-width: 900px;
     max-width: 100%;
-    margin-bottom: 100px;
-    
+    margin-bottom: 70px;
+
 }
 .check p{
     text-align: center;
+    margin-top: 0;
 }
 .check1{
     font-size:1.4em ;
@@ -454,8 +455,9 @@ padding:15px 55px;
     justify-content:space-between;
     align-items:center;
     width: 600px;
-    height:200px;
+    height:170px;
     margin:0 30px;
+
     
 }
 .check1-1{
@@ -530,6 +532,7 @@ display: block;
 .items-flex{
      display: flex;
     flex-direction: column;
+    margin-bottom: 90px;
 }
 .items{
     display:flex;
@@ -538,6 +541,7 @@ display: block;
     justify-content: space-between;
     flex-wrap: wrap;
     padding: 0;
+    margin-top: 0;
 }
 
 h1{
@@ -546,8 +550,12 @@ h1{
     text-align: center;
     margin-bottom: 0;
     margin-top: 0;
+    padding-bottom: 0px;
 }
-
+hr{
+    margin-top: 0;
+    margin-bottom: 0;
+}
 
 
 .item{
@@ -614,12 +622,12 @@ h1{
     padding: 11px 60px;
     color: #fff;
     text-decoration: none;
-    margin-top: 30px;
+    margin-top: 15px;
 
 }
 .line4{
     position: relative;
-    right:15px ;
+    right:30px ;
 }
 .bott{
     width: 100%;
@@ -631,17 +639,19 @@ h1{
     height:auto;
 }
 .bott1 li{
-    height:62px ;
+    height:80px ;
     list-style-type: none;
     margin: 20px 0;
 }
 .bott-text{
     float: left;  
+    margin-top:40px ;
     width: 35%;
 }
 .zalog{
-    font-size: 1.7em;
+    font-size:30px;
    text-align: left;
+
 }
 .cart>.h2,
 .cart>hr{
@@ -658,9 +668,7 @@ iframe{
     width: 100%;
     height:550px;
 }
-.bott1{
-    padding: 0;
-}
+
 .take{
     float: left;
     margin-right: 25px;
