@@ -1,10 +1,18 @@
 
 .contact>.contact1:nth-child(1){
-   margin-left:0px ;
+   margin-left:-10px;
+
 }
 .condition{
      height:550px;
     width: 100%;
+}
+.contact{
+       height:50px ;
+
+    right:0px ;
+    width:950px ;
+   
 }
 .guarantee{
     width:1000px;
@@ -31,14 +39,14 @@
 .string:nth-child(5),
 .string:nth-child(7){
     margin-left: 0;
-    margin-right: 30px;
+    margin-right: 25px;
 }
 .string:nth-child(2),
 .string:nth-child(4),
 .string:nth-child(6),
 .string:nth-child(8){
     margin-right: 0;
-    margin-left: 30px;
+    margin-left: 25px;
 }
 .items{
     display:flex;
@@ -46,6 +54,19 @@
     flex-direction: row;
     justify-content:center;
     flex-wrap: wrap;
+}
+.item{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    float:left;
+    width:295px;
+    height:280px;
+    margin-top:30px;
+    margin-bottom:15px;
+    margin-left:15px;
+    margin-right:15px;
+    border: 1px solid #737373;
 }
 .item:nth-child(1),
 .item:nth-child(5),
