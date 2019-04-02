@@ -334,12 +334,14 @@ overflow-x: hidden !important;
     float: right;
     padding-top: 0px;
     margin-top: 0;
+    background:rgba(253, 170, 36, 0.5) ; /* цветное  оранж */
 }
 .string{
     display: block;
     width: 400px;
     height:auto;
     margin:20px;
+    background:rgba(53, 36, 253, 0.5) ; /* цветное  синий */
 }
 .string img{
     margin-top:10px; 
