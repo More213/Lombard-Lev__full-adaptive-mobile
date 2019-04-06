@@ -8,7 +8,7 @@
     z-index: 100;
 }
 .conturright{
-       width:1px;
+    width:1px;
     height:4000px ;
     position: absolute;
     right: 155px;
@@ -34,10 +34,9 @@
     justify-content:space-between;
     align-items:flex-start;
     flex-wrap: wrap-reverse;
-        align-content: space-around;
+    align-content: space-around;
     margin-left: auto;
     margin-right: auto;
-   
     position: relative;
     width: 950px;
 }
