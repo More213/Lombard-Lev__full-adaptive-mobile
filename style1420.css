@@ -41,7 +41,7 @@
     position: relative;
     width: 950px;
 }
-    .main-menu{
+.main-menu{
     margin-left:5px ;
      margin-top: 120px;
 }
@@ -51,7 +51,7 @@
 .main-menu>li:nth-child(5){
     margin-right:0px;
 }
-    .contact{
+.contact{
     margin-left: 0;
     margin-right: 0;
     right: 5px;
@@ -61,18 +61,35 @@
 .contact>.contact1{
     display: ;
     width: 235px;
-margin: 0;
+    margin: 0;
     padding: 0;
 }
 .contact>.contact1:nth-child(1){
-   margin-left:-5px ;
-}
+    margin-left:-5px ;
+} 
 .contact>.contact1:nth-child(2){
-   margin-right:-5px ;
+    margin-right:-5px ;
 }
 .offer1{
     bottom:105px ;
 }
 .footer-1724{
     width: 1230px;
+    
+}
+.stri1{
+    text-align: left;
+    width:300px;
+    height:auto;
+    float: right;
+    padding-top: 0px;
+    margin-top: 0;
+   /* background:rgba(253, 170, 36, 0.5) ; /* цветное  оранж */
+}
+.string{
+    display: block;
+    width: 380px;
+    height:auto;
+    margin:20px;
+   /* background:rgba(53, 36, 253, 0.5) ; /* цветное  синий */
 }
