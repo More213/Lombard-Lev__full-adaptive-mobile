@@ -85,11 +85,10 @@ body{
     height: 50px;
     padding:5px 0 20px;
 }
-.bott1 li{
+.bott1 p{
     height:auto;
-    list-style-type: none;
-    margin: 70px 0;
-    padding: 20px;
+    margin-bottom: 50px;
+
 }
 .zalog{
     margin-left: 5%;

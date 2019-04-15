@@ -197,13 +197,13 @@ overflow-x:hidden !important;
 .offer1{
     display:block;
     position:relative;
-    bottom:45px;
+    bottom:58px;
     z-index:16;
     background:rgba(150, 0, 24, 0.6);
     min-width:300px;
     width:950px;
-    height: 30px;
-    padding:5px 0 20px;
+    height: 38px;
+    padding:10px 0 20px;
     
 }
 .wrapper{
@@ -400,7 +400,7 @@ overflow-x:hidden !important;
     box-shadow: 0 0  10px rgba(0,0,0,0.5); /* Параметры тени */
     padding:15px 55px;
     border-radius:7px;
-    box-sizing:content-box;
+    box-sizing:border-box;
     z-index:7;
 }
 .blocshadow2{
@@ -416,7 +416,7 @@ overflow-x:hidden !important;
     box-shadow: 0 0  10px rgba(0,0,0,0.5); /* Параметры тени */
     padding:15px 45px 15px 65px;
     border-radius:7px;
-    box-sizing:content-box;
+    box-sizing:border-box;
 }
 .blocshadow3{
     padding:15px 40px;
@@ -432,7 +432,9 @@ overflow-x:hidden !important;
     box-shadow:0 0  10px rgba(0,0,0,0.5); /* Параметры тени */
     padding:15px 40px;
     border-radius:7px;
-    box-sizing:content-box;
+
+}
+
 }
 .check{
     display:flex;
@@ -552,7 +554,7 @@ h1{
     padding-bottom:0px;
 }
 hr{
-    margin-top:0;
+    margin-top:5px;
     margin-bottom:0;
 }
 .item{
