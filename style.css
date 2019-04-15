@@ -425,7 +425,7 @@ overflow-x:hidden !important;
     z-index:7;
 }
 .blocshadow2{
-    padding: 15px 45px 15px 65px;
+    padding: 15px 55px 15px 55px;
     position:relative;
     right:5px;
 }
@@ -435,7 +435,7 @@ overflow-x:hidden !important;
     right:5px;
     background:#ffffff; /* Цвет фона */
     box-shadow: 0 0  10px rgba(0,0,0,0.5); /* Параметры тени */
-    padding:15px 45px 15px 65px;
+    padding:15px 55px 15px 55px;
     border-radius:7px;
     box-sizing:border-box;
 }
@@ -483,8 +483,7 @@ overflow-x:hidden !important;
     margin:0 30px;
 }
 .check1-1{
-    display:block;
-    position:relative;
+
     background:url(./images-lomb/icons-10.png) no-repeat;
     width:72px;
     height:68px;
@@ -492,8 +491,7 @@ overflow-x:hidden !important;
     margin-right:auto;
 }
 .check1-1:hover{
-    display:block;
-    position:relative;
+
     background:url(./images-lomb/icon_for.png) no-repeat;
     width:72px;
     height:68px;
@@ -504,8 +502,9 @@ overflow-x:hidden !important;
     background:url(./images-lomb/icons-9.png) no-repeat;
     width:72px;
     height:68px;
+    
     margin-left:auto;
-    margin-right:auto;
+
 }
 .check1-2:hover{
     display:block;
@@ -514,10 +513,7 @@ overflow-x:hidden !important;
     width:72px;
     height:68px;
 }
-.line2{
-    position:relative;
-    right:10px;
-}
+
 .check1-3{
     display:block;
     position:relative;
