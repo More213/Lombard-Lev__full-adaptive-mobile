@@ -46,6 +46,10 @@ body{
     right:0px ;
     color: #fff;
 }
+.wrov23{
+    min-width:300px; 
+    width:95%;
+}
 .string{
     display: block;
     width: 800px;
@@ -102,28 +106,10 @@ body{
 h1{
     text-align: center;
 }
-.conturleft{
-    width:1px;
-    height:4000px ;
-    position: absolute;
-    left: 25px;
-    background:#00ffff ;
-    top:0;
-    z-index: 100;
-}
-.conturright{
-    width:1px;
-    height:4000px ;
-    position: absolute;
-    right: 25px;
-    background:#00ffff ;
-    top:0;
-    z-index:100 ;
-}
 .blocshadow{
-padding:0px;
+padding:15px 45px 15px 45px;
     position:relative;
-    left:20px;
+    left:0px;
 }
 .blocshadow:hover{
     display: block;
@@ -131,7 +117,7 @@ padding:0px;
     right: 0px;
     background:  no-repeat #ffffff; /* Цвет фона */
     box-shadow: 0 0  10px rgba(0,0,0,0.5); /* Параметры тени */
-    padding:0px;
+    padding:15px 45px 15px 45px;
     border-radius: 7px;
     box-sizing:content-box;
     z-index: 7;

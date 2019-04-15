@@ -322,22 +322,42 @@ overflow-x:hidden !important;
 
 .stri1{
     text-align:left;
-    width:310px;
+    width:329px;
     height:auto;
     float: right;
     padding-top:0px;
     margin-top:0;
-   /* background:rgba(253, 170, 36, 0.5) ; /* цветное  оранж */
+    /*background:rgba(253, 170, 36, 0.5) ; /* цветное  оранж */
 }
+@media screen and (min-width:1725px) and (max-width:1737px){
+.string:nth-child(1),
+.string:nth-child(5){
+    margin-left: 0px;
+    margin-right: 10px;
+}
+.string:nth-child(2),
+.string:nth-child(3),
+.string:nth-child(6),
+.string:nth-child(7){
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.string:nth-child(4),
+.string:nth-child(8){
+    margin-left: 10px;
+    margin-right: 0px;
+}
+} 
 .string{
     display:block;
     width:400px;
     height:auto;
     margin:20px;
-/* background:rgba(53, 36, 253, 0.5) ; /* цветное  синий */
+    /*background:rgba(53, 36, 253, 0.5) ; /* цветное  синий */
 }
 .string img{
     margin-top:10px; 
+    
 }
 .string:nth-child(1),
 .string:nth-child(5){
@@ -347,6 +367,7 @@ overflow-x:hidden !important;
 .string:nth-child(8){
     margin-right:0;
 }
+
 .string1{
     width:57px;
     height:auto;
@@ -623,6 +644,7 @@ hr{
 .line4{
     position:relative;
     right:30px;
+    width: 87%;
 }
 .bott{
     width:100%;
@@ -646,6 +668,7 @@ hr{
 .zalog{
     font-size:30px;
     text-align:left;
+    padding-left: 10px;
 }
 .cart>.h2,
 .cart>hr{
@@ -658,11 +681,10 @@ hr{
 iframe{
     min-width:240px;
     width:100%;
-    height:550px;
+    height:660px;
 }
 .take{
-    float:left;
-    margin-right:25px;
+    float: left;
 }
 .footer{
     display:flex;
@@ -677,7 +699,7 @@ iframe{
     display:flex;
     justify-content:space-between;
     align-content:center;
-    width:1724px;
+    width:1700px;
     margin-left:auto;
     margin-right:auto;
 }

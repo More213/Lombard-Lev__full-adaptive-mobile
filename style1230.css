@@ -21,13 +21,14 @@
 .stri1{
     display:block;
     position:relative;
-    width:370px;
+    width:395px;
     height:100px;
     float:right;
+    padding-left: 5px;
 }
 .string{
     display:block;
-    width:450px;
+    width:475px;  
     height:125px;
     margin:20px;
 }

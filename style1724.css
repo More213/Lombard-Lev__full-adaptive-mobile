@@ -61,7 +61,7 @@
     width: 40%;
 }
 .zalog{
-    margin-left:5%;
+    margin-left:0;
 }
 .cart{
     float: right;
@@ -84,10 +84,9 @@ iframe{
 .line4{
     position: relative;
     right:0px ;
+    width:100% ;
 }
-.foot2{
-    right: 30%;
-}
+
 .footer-1724{
-    width: 1420px;
-}s
+    width: 1230px;
+}
