@@ -52,6 +52,9 @@ overflow-x:hidden !important;
     background: rgba(150, 0, 24, 0.57);
     z-index:2;
 }
+.mobil-menu [type="checkbox"]{
+     display: none;
+}
 .header1>div{
     margin-left:auto;
     margin-right: auto;
@@ -147,7 +150,7 @@ overflow-x:hidden !important;
     justify-content:space-around;
     align-items:center;
     top:300px;
-    z-index:16;
+    z-index:1;
     min-width:200px;
     width:950px;
     height:270px;
