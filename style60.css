@@ -2,6 +2,18 @@ html,
 body{
     font-size:35px ;
 }
+header{
+    height: 1300px;
+}
+.untitled {
+    position: absolute;
+    top:0px ;
+    height: 1300px;   
+    min-width:1000px ;
+    width: 100%;
+    overflow:hidden; 
+    background-size: cover;
+}
 .mobil-menu label.toggleMenu{
  background: url(images-lomb/logo-1.png) no-repeat;
  display: block;
@@ -9,13 +21,14 @@ body{
     height: 50px;
     padding: 15px 40px;
  text-transform: uppercase;
-    top: 40px;
+    top: 50px;
     left: 20px;
  cursor: pointer;
  position: relative;
 }    
 
  .main-menu{
+     width: 1000px;
     display: none;
      position: absolute;
      top: 60px;
@@ -25,19 +38,19 @@ body{
     width: 100%;
     position:relative;
     display:inline-block;
-    
-    padding-top:12px;
-    padding-bottom: 12px;
-    padding-left: 40px;
- background:rgba(150, 0, 24, 0.93);
-
+    text-align: center;
+    font-size:50px ;
+    padding-top:25px;
+    padding-bottom:30px;
+    background:rgba(150, 0, 24);
     z-index: 2;
+    
 }
 input.toggleMenu:checked ~ ul{
  display: block;
 } 
 .header1{
-  background:rgba(150, 0, 24, 0.93);
+  background:rgba(150, 0, 24);
 } 
 .contact>.contact1:nth-child(1){
     margin-left:0;
@@ -63,6 +76,9 @@ input.toggleMenu:checked ~ ul{
     right:10px;
     width:340px;
     text-align:right;
+}
+.logo{
+    top:500px;
 }
 .logo1{
     width: 430px;
@@ -91,6 +107,10 @@ input.toggleMenu:checked ~ ul{
     position: relative;
     right:0px ;
     color: #fff;
+}
+.wrapper{
+    margin-top:30px;
+ 
 }
 .wrov23{
     min-width:300px; 
@@ -131,7 +151,7 @@ input.toggleMenu:checked ~ ul{
     margin-right: 0;
 }
 .offer1{
-    bottom:125px ;
+    bottom:-326px ;
     z-index: 16;
     background: rgba(150, 0, 24, 0.6);
     min-width: 300px;
