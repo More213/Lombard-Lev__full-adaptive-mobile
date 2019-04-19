@@ -120,7 +120,6 @@ overflow-x:hidden !important;
     left:10px;
     width:32px;
     height:21px;
-    background:url(./images-lomb/Mail.png) no-repeat;
 /*  background:rgba(36, 233, 227, 0.5) ; /* цветное  голубой */
 }
 .phone{
@@ -131,7 +130,7 @@ overflow-x:hidden !important;
     left:20px;
     width:20px;
     height:40px;
-    background:url(./images-lomb/Phone-1.png) no-repeat;
+   
 /*  background:rgba(36, 233, 227, 0.5) ; /* цветное  голубой */
 }
 
@@ -458,8 +457,6 @@ overflow-x:hidden !important;
     border-radius:7px;
 
 }
-
-}
 .check{
     display:flex;
     flex-direction:column;
@@ -486,52 +483,51 @@ overflow-x:hidden !important;
     margin:0 30px;
 }
 .check1-1{
-
-    background:url(./images-lomb/icons-10.png) no-repeat;
-    width:72px;
-    height:68px;
+    width:75px;
+    height:78px;
     margin-left:auto;
+    overflow: hidden;
     margin-right:auto;
 }
-.check1-1:hover{
-
-    background:url(./images-lomb/icon_for.png) no-repeat;
-    width:72px;
-    height:68px;
+.check1-1>img{
+    position: relative;
+    right:82px;
+}
+.check1-1>img:hover{
+    right:3px ;
 }
 .check1-2{
     display:block;
+    overflow: hidden;
     position:relative;
-    background:url(./images-lomb/icons-9.png) no-repeat;
-    width:72px;
-    height:68px;
-    
+    width:75px;
+    height:78px;
     margin-left:auto;
-
 }
-.check1-2:hover{
-    display:block;
-    position:relative;
-    background:url(./images-lomb/icon_for2.png) no-repeat;
-    width:72px;
-    height:68px;
+.check1-2>img{
+    position: relative;
+    right:88px;
+    bottom:75px ;
 }
-
+.check1-2>img:hover{
+    right: 9px
+}
 .check1-3{
     display:block;
     position:relative;
-    background:url(./images-lomb/icons-11.png) no-repeat;
+    overflow: hidden;
     width:72px;
     height:68px;
     margin-left:auto;
     margin-right:auto;
 }
-.check1-3:hover{
-    display:block;
-    position:relative;
-    background:url(./images-lomb/icons-12.png) no-repeat;
-    width:72px;
-    height:68px;
+.check1-3>img{
+    position: relative;
+    bottom: 165px;
+    right: 85px;
+}
+.check1-3>img:hover{
+    right:6px ;
 }
 .check2-1{
     margin-left:auto;
