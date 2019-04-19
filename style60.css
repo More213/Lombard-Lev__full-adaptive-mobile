@@ -44,10 +44,12 @@ header{
     padding-bottom:30px;
     background:rgba(150, 0, 24);
     z-index: 2;
-    
 }
+
 input.toggleMenu:checked ~ ul{
- display: block;
+     display: block;
+    transition: all 1s;
+    transform:rotate(360deg);
 } 
 .header1{
   background:rgba(150, 0, 24);
