@@ -15,13 +15,14 @@ header{
     background-size: cover;
 }
 .mobil-menu label.toggleMenu{
-    background: url(images-lomb/logo-1.png) no-repeat;
+    background: url(images-lomb/icons8-%D0%BC%D0%B5%D0%BD%D1%8E-filled2.svg) no-repeat;
+    background-size: 100%;
     display: block;
-    width: 50px;
-    height: 50px;
+    width: 70px;
+    height: 70px;
     padding:10px;
     text-transform: uppercase;
-    top: 70px;
+    top:30px;
     left: 20px;
     cursor: pointer;
     position: relative;
