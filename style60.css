@@ -1,53 +1,53 @@
 html,
 body{
-    font-size:40px ;
+    font-size:40px;
 }
 header{
-    height: 1300px;
+    height:1300px;
 }
 .untitled {
-    position: absolute;
-    top:0px ;
+    position:absolute;
+    top:0px;
     height: 1300px;   
-    min-width:1000px ;
-    width: 100%;
+    min-width:1000px;
+    width:100%;
     overflow:hidden; 
     background-size: cover;
 }
 .mobil-menu label.toggleMenu{
     background: url(images-lomb/icons8-%D0%BC%D0%B5%D0%BD%D1%8E-filled2.svg) no-repeat;
-    background-size: 100%;
-    display: block;
-    width: 70px;
-    height: 70px;
+    background-size:100%;
+    display:block;
+    width:70px;
+    height:70px;
     padding:10px;
-    text-transform: uppercase;
-    top:30px;
-    left: 20px;
-    cursor: pointer;
-    position: relative;
+    text-transform:uppercase;
+    top:15px;
+    left:10px;
+    cursor:pointer;
+    position:relative;
 }    
  .main-menu{
-    width: 1000px;
-    max-height: 0px;
-    overflow: hidden;
-    position: absolute;
-    top: 90px;
-    left: -70px;
-    background: rgba(150, 0, 24);
+    width:1000px;
+    max-height:0px;
+    overflow:hidden;
+    position:absolute;
+    top:69px;
+    left:-70px;
+    background:rgba(150, 0, 24);
     -webkit-transition:max-height 0.4s linear;
     -moz-transition:max-height 0.4s linear;
     transition:max-height 0.4s linear;
 } 
 .main-menu>li{
-    width: 100%;
+    width:100%;
     position:relative;
     display:inline-block;
-    text-align: center;
-    font-size:50px ;
+    text-align:center;
+    font-size:45px;
     padding-top:45px;
     padding-bottom:45px;
-    z-index: 2;
+    z-index:2;
     background: rgba(150, 0, 24);
 }
 
@@ -55,7 +55,7 @@ input.toggleMenu:checked ~ .main-menu{
     max-height:1000px;
 } 
 .header1{
-    height:200px ;
+    height:160px;
     background:rgba(150, 0, 24);
 } 
 .contact>.contact1:nth-child(1){
@@ -63,13 +63,13 @@ input.toggleMenu:checked ~ .main-menu{
 }
 
 .contact{
-    display: flex;
+    display:flex;
     flex-direction: column;
     justify-content: center;
-    height:130px ;
-    width:420px ;
+    height:30px;
+    width:420px;
     position:absolute;
-    top: -34px;
+    top:0px;
 }
 .contact1{
     width:200px;
@@ -87,46 +87,44 @@ input.toggleMenu:checked ~ .main-menu{
 }
 .mail>img{
     width:50px;
-    height: auto;
+    height:auto;
 }
-.phone{
-    top:px ;
-}
+
 .phone>img{
-    width: 40px;
-    height: auto;
+    width:40px;
+    height:auto;
 }
 .logo{
     top:500px;
-    height: 400px;
+    height:400px;
 }
 .logo1{
-    width: 430px;
+    width:430px;
 }
 .l1{
-    font-family: 'AGOpus';
-    font-weight:bold ;
-    font-size:1.75em ;
-    color: #fff;
+    font-family:'AGOpus';
+    font-weight:bold;
+    font-size:1.75em;
+    color:#fff;
 }
 .logo-top{
-    width: 151px;
-    height:158px ;
+    width:151px;
+    height:158px;
 }
 .line122{
-    display: block;
+    display:block;
     position:relative;  
-    right:0px ;
+    right:0px;
     background: url(./images-lomb/line11.png);
-    width:6px ;
-    height: 200px;
+    width:6px;
+    height:200px;
 }
 .logo>div>span{
-    font-size:60px ;
-    display: block;
-    position: relative;
-    left:5px ;
-    color: #fff;
+    font-size:60px;
+    display:block;
+    position:relative;
+    left:5px;
+    color:#fff;
 }
 .wrapper{
     margin-top:50px;
@@ -134,45 +132,45 @@ input.toggleMenu:checked ~ .main-menu{
 .wrov23{
     min-width:300px; 
     width:95%;
-    font-size: 55px;
+    font-size:55px;
 }
 .condition{
     height:auto;
-    width: 100%;
+    width:100%;
 }
 .string{
-    width: 800px;
+    width:800px;
     height:auto;
 }
 .stri1{
     text-align:center;
     width:100%;
     height:auto;
-    float: right;
-    padding-left: 10px;
-    font-size: 50px;
+    float:right;
+    padding-left:10px;
+    font-size:50px;
 }
 .string1,.string2,.string3,.string4,
 .string5,.string6,.string7,.string8{
-    width: 130px;
-    height: auto;
-    z-index:5 ;
+    width:130px;
+    height:auto;
+    z-index:5;
 }
 .string img{
     margin-bottom:30px; 
 }
 .string:nth-child(1),.string:nth-child(2),.string:nth-child(3),.string:nth-child(4),
 .string:nth-child(5),.string:nth-child(6),.string:nth-child(7),.string:nth-child(8){
-    margin-left: 0;
-    margin-right: 0;
+    margin-left:0;
+    margin-right:0;
 }
 .offer1{
-    bottom:-275px ;
-    z-index: 16;
-    background: rgba(150, 0, 24, 0.6);
-    min-width: 300px;
+    bottom:-315px;
+    z-index:16;
+    background:rgba(150, 0, 24, 0.6);
+    min-width:300px;
     width:950px;
-    height: 50px;
+    height:50px;
     padding:5px 0 20px;
 }
 .bott1 p{
@@ -181,133 +179,125 @@ input.toggleMenu:checked ~ .main-menu{
 
 }
 .zalog{
-    font-size: 65px;
+    font-size:55px;
 }
 
 .guarantee{
-    margin-left: 0px;
+    margin-left:0px;
 }
 .tu{
-    font-size:65px; 
+    font-size:55px; 
 }
 h1{
-    text-align: center;
-    font-size: 65px;
+    text-align:center;
+    font-size:55px;
 }
 .check{
-    display: flex;
+    display:flex;
     flex-direction:column;
-    justify-content: center;
+    justify-content:center;
     align-items:center;
-    min-width: 900px;
-    max-width: 100%;
-    margin-bottom: 100px;
+    min-width:900px;
+    max-width:100%;
+    margin-bottom:100px;
 }
 .check p{
-    text-align: center;
-    font-size: 45px;
+    text-align:center;
+    font-size:45px;
 }
 .check1{
     font-size:1.6em ;
 }
 .check2{
-    display: flex;
+    display:flex;
     flex-direction:column;
     height:auto;
 }
 .check1-1>img{
-    right: 248px;
-    width: 500px;
+    right:248px;
+    width:500px;
     
 }
 .check1-1{
     width:250px;
     height:250px ;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left:auto;
+    margin-right:auto;
 }
 .check1-1>img:hover{
-    right: 1px;
+    right:1px;
 }
 
 .check1-2>img{
     bottom:240px ;
-    right: 248px;
-    width: 500px;
-    
+    right:248px;
+    width:500px;
 }
 .check1-2{
     width:250px;
-    height:250px ;
-    margin-left: auto;
-    margin-right: auto;
+    height:250px;
+    margin-left:auto;
+    margin-right:auto;
 }
 .check1-2>img:hover{
-    right: 1px;
-    bottom:240px ;
+    right:1px;
+    bottom:240px;
 }
 
 .check1-3>img{
-    bottom:500px ;
-    right: 250px;
-    width: 500px;
-    
+    bottom:500px;
+    right:250px;
+    width:500px;
 }
 .check1-3{
     width:250px;
-    height:250px ;
-    margin-left: auto;
-    margin-right: auto;
+    height:250px;
+    margin-left:auto;
+    margin-right:auto;
 }
 .check1-3>img:hover{
-    right: 3px;
-    bottom:500px ;
+    right:3px;
+    bottom:500px;
 }
+.blocshadow2,
+.blocshadow2:hover,
 .blocshadow,
 .blocshadow:hover{
     left:0px;
     padding:65px 160px;
-    border-radius: 17px;
-}
-
-.blocshadow2,
-.blocshadow2:hover{
-    right: 0px;
-    padding:  65px 160px;
-    border-radius: 17px;
+    border-radius:17px;
 }
 .blocshadow3,
 .blocshadow3:hover{
-    left: 0px;
+    left:0px;
     padding:65px 160px ;
-    border-radius: 17px;
-    margin-bottom: 40px;
+    border-radius:17px;
+    margin-bottom:40px;
 }
 .line,
 .line2,
-.line1
-{
-    position: relative;
+.line1{
+    position:relative;
     height:10px;
-    width:100px ;
-    margin-left: auto;
-    margin-right: auto
+    width:100px;
+    margin-left:auto;
+    margin-right:auto;
 }
 .check2-1,
 .check2-2,
 .check2-3{
-    text-align: center;
-    font-size: 1.3em
+    text-align:center;
+    font-size:1.3em;
 }
 .check3-1{
-    text-align: center;
+    text-align:center;
 }
 .items{
     display:flex;
     max-width:100%;
     flex-direction:column;
     justify-content:space-between;
-    align-items: center;
+    align-items:center;
     flex-wrap:wrap;
     padding:0;
     margin-top:0;
@@ -322,10 +312,10 @@ h1{
     border:1px solid #737373;
 }
 .textbottom{ 
-    padding-top: 35px;
-    padding-bottom: 35px;
+    padding-top:35px;
+    padding-bottom:35px;
     padding-left:35px;
-    border-top: 1px solid #737373;
+    border-top:1px solid #737373;
 }
 .red{
     font-size:1.2em;
@@ -342,14 +332,14 @@ h1{
     margin:auto;
 }
 .betton{
-    font-size:50px ;
+    font-size:50px;
     margin-left:auto;
     margin-right:auto;
-    width:700px ;
+    width:700px;
     background:#920017;
     padding:25px 0px;
     color:#fff;
-    text-align: center;
+    text-align:center;
     text-decoration:none;
     margin-top:15px;
 }
@@ -363,31 +353,32 @@ h1{
     color:#ffffff;
 }
 .footer-1724{
-    width: 100%;
+    width:100%;
 }
 .foot>p{
     text-align:left;
     position:relative;
-    font-size:0.9em;
-    bottom:15px;
-    left:200px;
+    font-size:40px;
+    bottom:55px;
+    left:270px;
     margin:0 20px 0 0;
 }
 .foot1{
     position:relative;
-    top:50px;
-    left: 20px;
+    top:30px;
+    left:20px;
+    width:100%
 }
 .foot2{
     font-size:0.85em;
-    top: 20px;
-    right:20px ;
+    top:20px;
+    right:20px;
     height:30px;
     position:relative;    
 }
 iframe{
-    min-width:240px ;
-    width: 100%;
+    min-width:240px;
+    width:100%;
     height:auto;
 }
 .bott{
@@ -400,7 +391,7 @@ iframe{
     height:auto;
 }
 .bott1 li{
-    font-size:50px ;
+    font-size:50px;
     height:150px;
     margin:20px 0;
 }
@@ -409,12 +400,12 @@ iframe{
 }
 .bott-text>ul>li>img{
     width:100px;
-    padding-bottom: 45px;
+    padding-bottom:45px;
     margin-top:20px;
-    margin-right: 30px;
+    margin-right: 35px;
 }
 .cart{
-    height: auto;
+    height:auto;
     float:right;
     width:100%;
 }
@@ -430,5 +421,5 @@ iframe{
 .line4,
 .line3{
     width: 250px;
-    height: 10px
+    height: 10px;
 }

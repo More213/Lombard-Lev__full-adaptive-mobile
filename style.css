@@ -1,11 +1,11 @@
 @font-face {
-	font-family: 'AGOpus';
-	src: url('/fonts/AGOpus-Bold.eot');
-	src: url('/fonts/AGOpus-Bold.eot?#iefix') format('embedded-opentype'),
+	font-family:'AGOpus';
+	src:url('/fonts/AGOpus-Bold.eot');
+	src:url('/fonts/AGOpus-Bold.eot?#iefix') format('embedded-opentype'),
     url('/fonts/AGOpus-Bold.woff') format('woff'),
     url('/fonts/AGOpus-Bold.ttf') format('truetype');
-	font-weight: bold;
-	font-style: normal;
+	font-weight:bold;
+	font-style:normal;
 }
 html,
 body{
@@ -20,26 +20,8 @@ body{
 }
 body,
 .body{
-overflow-x:hidden !important;
+    overflow-x:hidden !important;
 }
-/*.conturleft{
-    width:1px;
-    height:4000px ;
-    position:absolute;
-    left: 282px;
-    background:#00ffff ;
-    top:0;
-    z-index: 100;
-}
-.conturright{
-    width:1px;
-    height:4000px ;
-    position: absolute;
-    right: 282px;
-    background:#00ffff ;
-    top:0;
-    z-index:100 ;
-}*/
 .header1{
     display:flex;
     flex-direction:row;
@@ -53,7 +35,7 @@ overflow-x:hidden !important;
     z-index:2;
 }
 .mobil-menu [type="checkbox"]{
-     display: none;
+     display:none;
 }
 .header1>div{
     margin-left:auto;
@@ -73,12 +55,12 @@ overflow-x:hidden !important;
 .main-menu>li{
     position:relative;
     display:inline-block;
-    margin-right: 65px;
+    margin-right:65px;
 /* background:rgba(249, 255, 41, 0.5) ; /* цветное  желтый */
 }
 .main-menu a{
     color:aliceblue;
-    text-decoration: none;
+    text-decoration:none;
     font-size:1.05em;
 }
 .main-menu a:hover{
@@ -86,11 +68,11 @@ overflow-x:hidden !important;
 }
 .contact{
     height:50px;
-    display: flex;
-    flex-direction: row;
+    display:flex;
+    flex-direction:row;
     justify-content:space-between;
     align-items:flex-start;
-    position: absolute;
+    position:absolute;
     right:95px;
     width:490px;
     margin-top:30px;
@@ -175,7 +157,7 @@ overflow-x:hidden !important;
 }
 
 .line122{
-    display: block;
+    display:block;
     position:relative;
     right:60px;
     background:url(./images-lomb/line11.png) no-repeat;
@@ -204,7 +186,7 @@ overflow-x:hidden !important;
     background:rgba(150, 0, 24, 0.6);
     min-width:300px;
     width:950px;
-    height: 38px;
+    height:38px;
     padding:10px 0 20px;
     
 }
@@ -212,7 +194,7 @@ overflow-x:hidden !important;
     margin-top:5px;
     min-width:1000px;
     max-width:100%;
-    display: flex;
+    display:flex;
     flex-direction:column;
     justify-content:space-between;
     align-items:center;
@@ -358,8 +340,7 @@ overflow-x:hidden !important;
     /*background:rgba(53, 36, 253, 0.5) ; /* цветное  синий */
 }
 .string img{
-    margin-top:10px; 
-    
+    margin-top:10px;
 }
 .string:nth-child(1),
 .string:nth-child(5){
@@ -420,14 +401,14 @@ overflow-x:hidden !important;
     position:relative;
     right:50px;
     background:no-repeat #ffffff; /* Цвет фона */
-    box-shadow: 0 0  10px rgba(0,0,0,0.5); /* Параметры тени */
+    box-shadow:0 0  10px rgba(0,0,0,0.5); /* Параметры тени */
     padding:15px 55px;
     border-radius:7px;
     box-sizing:border-box;
     z-index:7;
 }
 .blocshadow2{
-    padding: 15px 55px 15px 55px;
+    padding:15px 55px 15px 55px;
     position:relative;
     right:5px;
 }
@@ -486,15 +467,15 @@ overflow-x:hidden !important;
     width:75px;
     height:78px;
     margin-left:auto;
-    overflow: hidden;
+    overflow:hidden;
     margin-right:auto;
 }
 .check1-1>img{
-    position: relative;
+    position:relative;
     right:82px;
 }
 .check1-1>img:hover{
-    right:3px ;
+    right:3px;
 }
 .check1-2{
     display:block;
@@ -505,29 +486,29 @@ overflow-x:hidden !important;
     margin-left:auto;
 }
 .check1-2>img{
-    position: relative;
+    position:relative;
     right:88px;
-    bottom:75px ;
+    bottom:75px;
 }
 .check1-2>img:hover{
-    right: 9px
+    right:9px;
 }
 .check1-3{
     display:block;
     position:relative;
-    overflow: hidden;
+    overflow:hidden;
     width:72px;
     height:68px;
     margin-left:auto;
     margin-right:auto;
 }
 .check1-3>img{
-    position: relative;
-    bottom: 165px;
-    right: 85px;
+    position:relative;
+    bottom:165px;
+    right:85px;
 }
 .check1-3>img:hover{
-    right:6px ;
+    right:6px;
 }
 .check2-1{
     margin-left:auto;
@@ -602,7 +583,7 @@ hr{
 }
 .textbottom{ 
     padding-left:20px;
-    border-top: 1px solid #737373;
+    border-top:1px solid #737373;
 }
 .imag, .imag1, .imag2,
 .imag3, .imag4, .imag5{
@@ -639,7 +620,7 @@ hr{
 .line4{
     position:relative;
     right:30px;
-    width: 87%;
+    width:87%;
 }
 .bott{
     width:100%;
@@ -663,7 +644,7 @@ hr{
 .zalog{
     font-size:30px;
     text-align:left;
-    padding-left: 10px;
+    padding-left:10px;
 }
 .cart>.h2,
 .cart>hr{
@@ -679,7 +660,7 @@ iframe{
     height:660px;
 }
 .take{
-    float: left;
+    float:left;
 }
 .footer{
     display:flex;
@@ -717,5 +698,5 @@ iframe{
 }
 @media only screen and (max-width:1000px){
 body{
-overflow-x:auto !important;
-    }}   
+    overflow-x:auto !important;
+}}   
