@@ -7,6 +7,9 @@
 .main-menu{
     margin-left:-15px ;
 }
+.main-menu li{
+    margin-right:45px
+}
 .contact{
     display:flex;
     flex-direction:row;
@@ -19,16 +22,28 @@
 }
 .items{
     display:flex;
-    width:1200px;
+    width:1230px;
     flex-direction: row;
     justify-content:center;
     flex-wrap:wrap;
 }
+.item{
+
+    margin-left:25px;
+    margin-right:25px;
+
+}
 .condition{
-    width:1430px;
+    width:1230px;
     margin-left:auto;
     margin-right:auto;
-    height: 420px;
+    height: auto;
+}
+.string{
+    width: 380px
+}
+.stri1{
+    width: 300px;
 }
 .string:nth-child(4){
     margin-left:0;
@@ -83,7 +98,7 @@ iframe{
 }
 .line4{
     position:relative;
-    right:0px;
+    right:-5px;
     width:100%;
 }
 
