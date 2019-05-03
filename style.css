@@ -23,7 +23,7 @@ body{
 }
 
 .body{
-    overflow:hidden !important;
+    overflow-y:hidden !important;
 }
 .header1{
     display:flex;
