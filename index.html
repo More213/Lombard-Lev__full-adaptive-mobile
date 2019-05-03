@@ -78,6 +78,7 @@
                     </div>
                 </div>
             </header>
+<a class="back_to_top" title="Наверх"><img src="images-lomb/icons8-%D1%88%D0%B5%D0%B2%D1%80%D0%BE%D0%BD%20(1).svg" alt=""></a>
 
             <div class="wrapper">
                 <div class="wrrrra">
@@ -250,5 +251,35 @@
                 </div>
             </div>
         </div>
+        <script type="text/javascript">
+            (function() {
+  'use strict';
+
+  function trackScroll() {
+    var scrolled = window.pageYOffset;
+    var coords = document.documentElement.clientHeight;
+
+    if (scrolled > coords) {
+      goTopBtn.classList.add('back_to_top-show');
+    }
+    if (scrolled < coords) {
+      goTopBtn.classList.remove('back_to_top-show');
+    }
+  }
+
+  function backToTop() {
+    if (window.pageYOffset > 0) {
+      window.scrollBy(0, -80);
+      setTimeout(backToTop, 0);
+    }
+  }
+
+  var goTopBtn = document.querySelector('.back_to_top');
+
+  window.addEventListener('scroll', trackScroll);
+  goTopBtn.addEventListener('click', backToTop);
+})();
+
+</script>
     </body>
 </html>
