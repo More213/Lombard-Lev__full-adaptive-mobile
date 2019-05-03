@@ -16,7 +16,8 @@ margin-bottom: 100px
 .wrov23{
     min-width:900px;
     width:950px;
-}
+    margin-bottom: 50px;
+} 
 .stri1{
     display:block;
     position:relative;
@@ -116,9 +117,26 @@ iframe{
     height:502px;
 }
 .bott1 li{
-    height:55px;
-    margin:10px 0;
+    height:70px;
+    list-style-type:none;
+    margin:20px 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center
 }
+.bott-text>ul>li>img{
+    width: 50px;
+    height:53px;
+    margin-right:25px;
+    margin-top: 
+    flex-shrink: 0; 
+}
+.bott-text>ul>li>p{
+    width: 550px;
+    
+}
+
+
 .WeAre{
     display:none;
 }
