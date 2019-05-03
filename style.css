@@ -18,9 +18,12 @@ body{
     font-family:'PT Sans', sans-serif;
     font-size:25px;
 }
-body,
-.body{
+body{
     overflow-x:hidden !important;
+}
+
+.body{
+    overflow:hidden !important;
 }
 .header1{
     display:flex;
