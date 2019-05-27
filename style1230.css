@@ -1,0 +1,165 @@
+
+
+.condition{
+    height:550px;
+    width:100%;
+}
+.contact{
+    height:50px;
+    right:0px;
+    width:950px;
+}
+.guarantee{
+    width:1000px;
+margin-bottom: 100px
+}
+.wrov23{
+    min-width:900px;
+    width:950px;
+    margin-bottom: 50px;
+} 
+.stri1{
+    display:block;
+    position:relative;
+    width:375px;
+    height:100px;
+    float:right;
+    padding-left:5px;
+}
+.string{
+    display:block;
+    width:455px;  
+    height:125px;
+    margin:20px;
+}
+.string:nth-child(1),
+.string:nth-child(3),
+.string:nth-child(5),
+.string:nth-child(7){
+    margin-left:0;
+    margin-right:25px;
+}
+.string:nth-child(2),
+.string:nth-child(4),
+.string:nth-child(6),
+.string:nth-child(8){
+    margin-right:0;
+    margin-left:25px;
+}
+.items-flex{
+    margin-bottom:20px;
+}
+.items{
+    display:flex;
+    width:1000px;
+    flex-direction:row;
+    justify-content:center;
+    flex-wrap:wrap;
+}
+.item{
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+    float:left;
+    width:295px;
+    height:280px;
+    margin-top:30px;
+    margin-bottom:15px;
+    margin-left:15px;
+    margin-right:15px;
+    border:1px solid #737373;
+}
+.item:nth-child(1),
+.item:nth-child(5),
+.item:nth-child(4),
+.item:nth-child(6){
+    margin-right:15px;
+    margin-left:15px;
+}
+.bott{
+    width:950px;
+    margin-top:0px;
+    margin-left: auto;
+    margin-right: auto;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    flex-wrap:wrap;
+    height:auto;
+}
+.bott1{
+    padding-left:0;
+}
+.bott-text{
+    margin-top:20px;
+    float:none;  
+    width:950px;
+    padding-top:50px;
+}
+.cart{
+    float:none;
+    width:100%;
+}
+.h2{
+    text-align:center;
+}
+.line3{
+    margin-left:40%;
+}
+.line4{
+    right:0px;
+    width:150px;
+}
+iframe{
+    margin-top:20px;
+    min-width:240px ;
+    width:100%;
+    height:502px;
+}
+.bott1 li{
+    height:70px;
+    list-style-type:none;
+    margin:20px 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center
+}
+.bott-text>ul>li>img{
+    width: 50px;
+    height:53px;
+    margin-right:25px;
+    margin-top: 
+    flex-shrink: 0; 
+}
+.bott-text>ul>li>p{
+    width: 550px;
+    
+}
+
+
+.WeAre{
+    display:none;
+}
+.cart>.h2,
+.cart>hr{
+    display:block;
+}
+.zalog{
+    text-align:center;
+}
+.cart>hr{
+    margin-left:auto;
+    margin-right:auto;
+}
+.footer-1724{
+    width:950px;
+}
+.foot2{
+    right:0;
+}
+
+
+
+
+
+
