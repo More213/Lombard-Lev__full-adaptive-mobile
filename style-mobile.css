@@ -172,10 +172,13 @@ input.toggleMenu:checked ~ .main-menu{
     height:50px;
     padding:5px 0 20px;
 }
+.marquee>span{
+    font-size: 45px;
+}
 .bott1 p{
     height:auto;
     margin-bottom: 50px;
-
+    font-size: 35px
 }
 .zalog{
     font-size:55px;
@@ -257,6 +260,11 @@ h1{
 .check1-3>img:hover{
     right:3px;
     bottom:390px;
+}
+.check2-1,
+.check2-2,
+.check2-3{
+    font-size: 25px
 }
 .blocshadow2,
 .blocshadow2:hover,
