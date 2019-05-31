@@ -362,6 +362,10 @@ a:active{
 }
 .string img{
     margin-top:10px;
+    transition-duration: 1.8s
+}
+.string img:hover{
+    transform: rotateY(360deg)
 }
 .string:nth-child(1),
 .string:nth-child(5){

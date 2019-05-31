@@ -1,14 +1,28 @@
+*{
+    font-size: 25px
+}
 .header1>div{
     margin-left:0;
     margin-right:0;
     position:relative;
     max-width: 100%;
 }
+p,li{
+    font-size: 17px;
+}
 .main-menu{
     margin-left:-15px ;
 }
-.main-menu li{
-    margin-right:45px
+.main-menu>li{
+    margin-right:45px;
+     font-size: 25px;
+}
+.check1,
+.tu,h1{
+    font-size: 30px
+}
+.wrov23{
+    font-size: 25px;
 }
 .contact{
     display:flex;
@@ -40,10 +54,10 @@
     height: auto;
 }
 .string{
-    width: 380px
+    width: 300px
 }
 .stri1{
-    width: 300px;
+    width: 220px;
 }
 .string:nth-child(4){
     margin-left:0;
