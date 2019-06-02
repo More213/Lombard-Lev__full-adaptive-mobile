@@ -97,7 +97,7 @@ p,li{
     width:55%;
     height:600px;
 }
-iframe{
+.mymap{
     min-width:240px;
     width:100%;
     height:620px;
