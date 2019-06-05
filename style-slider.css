@@ -60,7 +60,7 @@
     animation-delay: 0s;
 }
 .untitled__slide:nth-child(1) .untitled__slideBg {
-    background-image: url(./images/slider-1.png);
+    background-image: url(./images-lomb/slider-1.png);
 }
 .untitled__slide:nth-child(2) {
     -webkit-animation-delay: 5s;
