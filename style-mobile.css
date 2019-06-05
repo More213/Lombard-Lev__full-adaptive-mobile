@@ -57,6 +57,7 @@ input.toggleMenu:checked ~ .main-menu{
 .header1{
     height:160px;
     background:rgba(150, 0, 24);
+    position: fixed;
 } 
 .contact>.contact1:nth-child(1){
     margin-left:0;
