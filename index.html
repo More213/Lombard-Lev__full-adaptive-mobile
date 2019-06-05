@@ -18,6 +18,7 @@
     </head>
         <!--trry-->
     <body>
+       
         <div class="body">        
             <header> 
                 <div class="header1">
@@ -294,7 +295,7 @@
 
         // Создаём макет содержимого.
         MyIconContentLayout = ymaps.templateLayoutFactory.createClass(
-            '<div style="color: #FFFFFF; font-weight: bold;">$[properties.iconContent]</div>'
+            '<div style="color: #FFFFFF; font-weight: 500;">$[properties.iconContent]</div>'
         ),
 
         myPlacemark = new ymaps.Placemark(myMap.getCenter(), {
@@ -320,7 +321,7 @@
             // Необходимо указать данный тип макета.
             iconLayout: 'default#imageWithContent',
             // Своё изображение иконки метки.
-            iconImageHref: 'images/logo-2.png',
+            iconImageHref: 'images-lomb/logo-2new.png',
             // Размеры метки.
             iconImageSize: [25, 25],
             // Смещение левого верхнего угла иконки относительно
@@ -335,13 +336,13 @@
         .add(myPlacemark)
         .add(myPlacemarkWithContent)
         .add(new ymaps.Placemark([56.349680, 43.868835], {
-            balloonContent: 'цвет <strong>воды пляжа бонди</strong>',         
+            balloonContent: '',         
         }, {
             preset: 'islands#icon',
             iconColor: '#0095b6',
             iconLayout: 'default#imageWithContent',
             // Своё изображение иконки метки.
-            iconImageHref: 'images/logo-2.png',
+            iconImageHref: 'images-lomb/logo-2new.png',
             // Размеры метки.
             iconImageSize: [25, 25],
             // Смещение левого верхнего угла иконки относительно
@@ -352,13 +353,13 @@
             // Макет содержимого.   
         }))
             .add(new ymaps.Placemark([56.323996, 43.945291], {
-            balloonContent: 'цвет <strong>воды пляжа бонди</strong>',         
+            balloonContent: '',         
         }, {
             preset: 'islands#icon',
             iconColor: '#0095b6',
             iconLayout: 'default#imageWithContent',
             // Своё изображение иконки метки.
-            iconImageHref: 'images/logo-2.png',
+            iconImageHref: 'images-lomb/logo-2new.png',
             // Размеры метки.
             iconImageSize: [25, 25],
             // Смещение левого верхнего угла иконки относительно
@@ -369,13 +370,13 @@
             // Макет содержимого.   
         }))
             .add(new ymaps.Placemark([56.331191, 43.840376], {
-            balloonContent: 'цвет <strong>воды пляжа бонди</strong>',         
+            balloonContent: '',         
         }, {
             preset: 'islands#icon',
             iconColor: '#0095b6',
             iconLayout: 'default#imageWithContent',
             // Своё изображение иконки метки.
-            iconImageHref: 'images/logo-2.png',
+            iconImageHref: 'images-lomb/logo-2new.png',
             // Размеры метки.
             iconImageSize: [25, 25],
             // Смещение левого верхнего угла иконки относительно
@@ -386,13 +387,13 @@
             // Макет содержимого.   
         }))
             .add(new ymaps.Placemark([56.324971, 44.010842], {
-            balloonContent: 'цвет <strong>воды пляжа бонди</strong>',         
+            balloonContent: '',         
         }, {
             preset: 'islands#icon',
             iconColor: '#0095b6',
             iconLayout: 'default#imageWithContent',
             // Своё изображение иконки метки.
-            iconImageHref: 'images/logo-2.png',
+            iconImageHref: 'images-lomb/logo-2new.png',
             // Размеры метки.
             iconImageSize: [25, 25],
             // Смещение левого верхнего угла иконки относительно
@@ -403,13 +404,13 @@
             // Макет содержимого.   
         }))
             .add(new ymaps.Placemark([56.309948, 44.020503], {
-            balloonContent: 'цвет <strong>воды пляжа бонди</strong>',         
+            balloonContent: '',         
         }, {
             preset: 'islands#icon',
             iconColor: '#0095b6',
             iconLayout: 'default#imageWithContent',
             // Своё изображение иконки метки.
-            iconImageHref: 'images/logo-2.png',
+            iconImageHref: 'images-lomb/logo-2new.png',
             // Размеры метки.
             iconImageSize: [25, 25],
             // Смещение левого верхнего угла иконки относительно
@@ -421,5 +422,7 @@
         }))
 });
     </script>
+
+   
     </body>
 </html>

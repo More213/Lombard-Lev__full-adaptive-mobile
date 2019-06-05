@@ -24,16 +24,23 @@ body{
 .body{
     overflow-y:hidden !important;
 }
+.popup{
+    z-index: 10000;
+    position: absolute;
+    background: #000000;
+    color: #fff;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 25px;
+    top: 200px;
+}
 a{
     text-decoration:none;
-    color: #920017;
-}
-a:visited{
-    color:#a55e69 ;
 }
 a:active{
-    color: #ff0028
+    color:#a55e69 ;
 }
+
 .header1{
     display:flex;
     flex-direction:row;
@@ -162,7 +169,7 @@ a:active{
     display:block;
     position:relative;
     right:60px;
-    background:url(./images/line11.png) no-repeat;
+    background:url(./images-lomb/line11.png) no-repeat;
     width:2px;
     height:125px;
 }
