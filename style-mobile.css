@@ -439,6 +439,9 @@ h1{
     position:relative;   
     top: 20px;
 }
+.foot2>a>span{
+    font-size: 40px
+}
 .back_to_top {
     position: fixed;
     bottom: 200px;
