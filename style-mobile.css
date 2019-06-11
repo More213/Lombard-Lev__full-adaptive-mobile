@@ -1,6 +1,6 @@
 html,
 body{
-    font-size:40px;
+    font-size:14px;
 }
 header{
     height:1300px;
@@ -143,6 +143,7 @@ input.toggleMenu:checked ~ .main-menu{
     width:800px;
     height:auto;
     margin: 0px
+        
 }
 
 .stri1{
@@ -156,6 +157,7 @@ input.toggleMenu:checked ~ .main-menu{
 }
 .string img{
     margin-top:10px;
+    width:150px ;
     transition-duration: none;
 }
 .string img:hover{
@@ -173,22 +175,24 @@ input.toggleMenu:checked ~ .main-menu{
     margin-right:0;
 }
 .offer1{
-    bottom:-315px;
+    bottom:-475px;
     z-index:16;
     background:rgba(150, 0, 24, 0.6);
     min-width:300px;
     width:950px;
     height:50px;
     padding:5px 0 20px;
+    
 }
 .marquee>span{
-    font-size: 45px;
+    font-size: 50px;
 }
 .bott1 p{
     height:auto;
     margin-bottom: 50px;
     font-size: 35px
 }
+.check>.check1,
 .zalog{
     font-size:55px;
 }
@@ -214,7 +218,7 @@ h1{
 }
 .check p{
     text-align:center;
-    font-size:45px;
+    font-size:47px;
 }
 .check1{
     font-size:1.6em ;
@@ -270,10 +274,11 @@ h1{
     right:3px;
     bottom:390px;
 }
-.check2-1,
-.check2-2,
-.check2-3{
-    font-size: 25px
+.check2-1>p,
+.check2-2>p,
+.check2-3>p{
+    text-align:center;
+    font-size: 45px
 }
 .blocshadow2,
 .blocshadow2:hover,
@@ -301,12 +306,7 @@ h1{
     margin-left:auto;
     margin-right:auto;
 }
-.check2-1,
-.check2-2,
-.check2-3{
-    text-align:center;
-    font-size:1.3em;
-}
+
 .check3-1{
     text-align:center;
 }
@@ -336,14 +336,13 @@ h1{
     border-top:1px solid #737373;
 }
 .red{
-    font-size:1.2em;
-}  
+    font-size:35px;
+}
+.lit1,
 .tb1{
-    font-size:1.1em;
+    font-size:40px;
 }
-.lit1{
-    font-size:1.08em;
-}
+
 .imag, .imag1, .imag2,
 .imag3, .imag4, .imag5{
     width:60%;
@@ -399,6 +398,7 @@ h1{
 }
 .bott-text>ul>li>p{
     width: auto;
+    font-size: 45px
 }
 .bott-text>ul>li>img{
     width:95px;
@@ -419,7 +419,7 @@ h1{
 .mymap{
     min-width:240px;
     width:100%;
-    height:1300px;
+    height:1000px;
 }
 .take{
     float: left;
