@@ -368,6 +368,9 @@ a:active{
     margin:20px;
 }
 .string img{
+     width:70px;
+    height:auto;
+    z-index: 5;
     margin-top:10px;
     transition-duration: 1.8s
 }
@@ -382,46 +385,7 @@ a:active{
 .string:nth-child(8){
     margin-right:0;
 }
-.string1{
-    width:57px;
-    height:auto;
-    z-index:5;
-}
-.string2{
-    width:57px;
-    height:auto;
-    z-index:5;
-}
-.string3{
-    width:71px;
-    height:76px;
-    z-index:5;
-}
-.string4{
-    width:64px;
-    height:63px;
-    z-index:5;
-}
-.string5{
-    width:71px;
-    height:67px;
-    z-index:5;
-}
-.string6{
-    width:55px;
-    height:60px;
-    z-index:5;
-}
-.string7{
-    width:57px;
-    height:69px;
-    z-index:5;
-}
-.string8{
-    width:65px;
-    height:50px;
-    z-index:5;
-}
+
 .blocshadow{
     padding:15px 55px;
     position:relative;
@@ -679,8 +643,6 @@ hr{
     align-items: center
 }
 .bott-text>ul>li>img{
-    width: 57px;
-    height:57px;
     margin-right: 15px;
     flex-shrink: 0;  
 }
@@ -709,9 +671,6 @@ hr{
     min-width:240px;
     width:100%;
     height:660px;
-}
-.take{
-    float:left;
 }
 .footer{
     display:flex;
