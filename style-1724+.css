@@ -336,7 +336,7 @@ a:active{
 
 .stri1{
     text-align:left;
-    width:329px;
+    width:319px;
     height:auto;
     float: right;
     padding-top:0px;
@@ -372,7 +372,8 @@ a:active{
     height:auto;
     z-index: 5;
     margin-top:10px;
-    transition-duration: 1.8s
+    transition-duration: 1.8s;
+    margin-right: 10px
 }
 .string img:hover{
     transform: rotateY(360deg)
