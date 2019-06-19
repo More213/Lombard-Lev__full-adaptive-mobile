@@ -707,7 +707,7 @@ hr{
 .foot2{
     position: relative;
     height:30px;
-    top:19px
+    top:0px
 }
 .foot2>a{
     font-size:0.85em; 
@@ -715,6 +715,10 @@ hr{
 }
 .foot2>a>span{
     font-weight: 700
+}
+.foot3{
+    position: absolute;
+    right: 0px
 }
 @media only screen and (max-width:1000px){
 body{
